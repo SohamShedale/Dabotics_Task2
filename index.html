@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="container">
+        <img src="./flat-lay-office-elements-with-copyspace.jpg" alt="">
+        <div id="content">
+
+            <div id="main-area">
+                <textarea name="" id="txtarea" cols="30" rows="6" placeholder="0"></textarea>
+            </div>
+
+            <div class="miniContainer">
+                <button onclick= "show('sin')" class='btn' value="sin" id="basicSin">sin</button>
+                <button onclick= "show('inverseSin')" class='btn' value="sin" id="inverseSin">sin&#x207B&#x00B9</button>
+                <button onclick= "show('cos')" class='btn' value="cos" id="basicCos">cos</button>
+                <button onclick= "show('inverseCos')" class='btn' value="cos" id="inverseCos">cos&#x207B&#x00B9</button>
+                <button onclick= "show('tan')" class='btn' value="tan" id="basicTan">tan</button>
+                <button onclick= "show('inverseTan')" class='btn' value="tan" id="inverseTan">tan&#x207B&#x00B9</button>
+                <button onclick= "show('rad')" class='btn' value="" id="rad">rad</button>
+                <button onclick= "show('deg')" class='btn' value="deg" id="deg">deg</button>
+
+                <button onclick= "show('log')" class='btn' value="log">log</button>
+                <button onclick= "show('ln')" class='btn' value="">ln</button>
+                <button onclick= "show('openBracket')" class='btn' value="">&#40;</button>
+                <button onclick= "show('closeBracket')" class='btn' value="">&#41;</button>
+                <button onclick= "show('inverse')" class='btn' value="" id="inverse">inv</button>
+                
+                <button onclick= "show('!')" class='btn' value="!">!</button>
+                <button onclick= "show('C')" class='btn calcBtn' value="clear">C</button>
+                <button onclick= "show('%')" class='btn calcBtn' value="mod">%</button>
+                <button onclick= "show('Del')" class='btn calcBtn' value="delete">Del</button>
+                <button onclick= "show('/')" class='btn calcBtn' value="divide">/</button>
+
+                <button onclick= "show('power')" class='btn' value="^">^</button>
+                <button onclick= "show('7')" class='btn' value="seven">7</button>
+                <button onclick= "show('8')" class='btn' value="eight">8</button>
+                <button onclick= "show('9')" class='btn' value="nine">9</button>
+                <button onclick= "show('*')" class='btn calcBtn' value="multiply">*</button>
+
+                <button onclick= "show('root')" class='btn' value="root" id="root">&#x221A</button>
+                <button onclick= "show('square')" class='btn' value="square" id="square">x&#x00B2</button>
+                <button onclick= "show('4')" class='btn' value="four">4</button>
+                <button onclick= "show('5')" class='btn' value="five">5</button>
+                <button onclick= "show('6')" class='btn' value="six">6</button>
+                <button onclick= "show('-')" class='btn calcBtn' value="subtract">-</button>
+
+                <button onclick= "show('pi')" class='btn' value="">&#960;</button>
+                <button onclick= "show('1')" class='btn' value="one">1</button>
+                <button onclick= "show('2')" class='btn' value="two">2</button>
+                <button onclick= "show('3')" class='btn' value="three">3</button>
+                <button onclick= "show('+')" class='btn calcBtn' value="add">+</button>
+
+                <button onclick= "show('e')" class='btn' value="e">e</button>
+                <button onclick= "show('00')" class='btn' value="dbzero">00</button>
+                <button onclick= "show('0')" class='btn' value="zero">0</button>
+                <button onclick= "show('.')" class='btn' value="dot">.</button>
+                <button onclick= "show('=')" class='btn equalBtn' value="answer">=</button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
