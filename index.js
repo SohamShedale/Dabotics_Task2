@@ -296,7 +296,7 @@ function show(val) {
       textArea.value = answer;
     }
 
-    if (operation == "sqrt") {
+    if (operation=="sqrt") {
       expr = textArea.value.match(/\d+/g);
       if(expr[0]>0){
         answer = Math.sqrt(expr);
